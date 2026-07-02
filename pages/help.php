@@ -81,7 +81,7 @@
     <li><strong>Feste IP-Adresse</strong> – entweder per Router-Reservierung oder manuell im Gerät.</li>
     <li><strong>DNS-Server</strong> – tragen Sie die IP Ihres AdGuard Home Servers ein (und <strong>keine</strong> externen DNS wie 8.8.8.8).</li>
     <li><strong>IPv6 deaktivieren</strong> – viele Geräte nutzen sonst IPv6-DNS und umgehen die Sperre.</li>
-    <li><strong>DNS over HTTPS (DoH) / DNS over TLS (DoT)</strong> – deaktivieren, da diese Verbindungen verschlüsselt sind und AdGuard Home sie nicht sieht.</li>
+    <li><strong>DNS over HTTPS (DoH) / DNS over TLS (DoT) & Proxys</strong> – deaktivieren, da diese Verbindungen verschlüsselt sind und AdGuard Home sie nicht sieht.</li>
 </ul>
 
 <p>
