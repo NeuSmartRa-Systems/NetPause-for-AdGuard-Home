@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['install'])) {
 ?>
 
 <h2>Ersteinrichtung</h2>
-<p>Willkommen bei AdGuard Parental. Bitte legen Sie den ersten Admin-Benutzer an.</p>
+<p>Willkommen bei NetPause for AdGuardHome. Bitte legen Sie den ersten Admin-Benutzer an.</p>
 
 <form method="post" class="up-form">
     <input type="text" name="username" placeholder="Admin-Benutzername" required>
