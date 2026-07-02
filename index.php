@@ -216,10 +216,10 @@ unset($_SESSION['notification']);
         <table>
             <tr>
                 <td>Version <?php echo htmlspecialchars($Version); ?></td>
-                <td>&copy; <?php echo date("Y"); ?> Neusmartra</td>
+                <td>&copy; <?php echo date("Y"); ?> Neusmartra | Systems</td>
                 <td>
                     <a href="?page=about" class="sub-nav-link">Über das Projekt</a> •
-                    <a href="https://github.com/neusmartra/AdGuardParental" class="sub-nav-link" target="_blank">GitHub</a> •
+                    <a href="https://github.com/NeuSmartRa-Systems/NetPause-for-AdGuard-Home" class="sub-nav-link" target="_blank">GitHub</a> •
                     <a href="?page=help" class="sub-nav-link">Hilfe</a>
                 </td>
             </tr>
