@@ -2,10 +2,10 @@
 
 **Zeitgesteuerte Kindersicherung für AdGuard Home – automatisch, individuell und datenschutzfreundlich.**
 
-![GitHub stars](https://img.shields.io/badge/stars-★_coming_soon-lightgrey)
-![GitHub forks](https://img.shields.io/badge/forks-★_coming_soon-lightgrey)
-![GitHub issues](https://img.shields.io/badge/issues-★_coming_soon-lightgrey)
-![License](https://img.shields.io/github/license/yourusername/netpause-adguardhome)
+![GitHub stars](https://img.shields.io/github/stars/NeuSmartRa-Systems/NetPause-for-AdGuard-Home)
+![GitHub forks](https://img.shields.io/github/forks/NeuSmartRa-Systems/NetPause-for-AdGuard-Home)
+![GitHub issues](https://img.shields.io/github/issues/NeuSmartRa-Systems/NetPause-for-AdGuard-Home)
+![License](https://img.shields.io/github/license/NeuSmartRa-Systems/NetPause-for-AdGuard-Home)
 
 ---
 
