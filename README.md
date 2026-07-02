@@ -161,7 +161,7 @@ Diese App ist ausschließlich für die Überwachung **eigener Geräte** und die 
 Der Entwickler übernimmt keine Haftung für direkte oder indirekte Schäden, die durch die Nutzung dieser Software entstehen könnten. Die App wurde sorgfältig entwickelt, dennoch können Fehler nicht vollständig ausgeschlossen werden. Bei Problemen nehmen wir gerne Hinweise entgegen.
 
 ### Markenrecht
-AdGuard ist eine eingetragene Marke der AdGuard Software Limited. Diese App ist eine unabhängige Drittanbieter‑Erweiterung und steht in keiner offiziellen Verbindung mit AdGuard Software Limited. Die Verwendung des Namens dient ausschließlich der Kennzeichnung der Kompatibilität mit AdGuard‑Produkten.
+AdGuard und das AdGuard-Logo sind eingetragene Marken der AdGuard Software Limited. Diese App ist eine unabhängige Drittanbieter‑Erweiterung und steht in keiner offiziellen Verbindung mit AdGuard Software Limited. Die Verwendung des Namens dient ausschließlich der Kennzeichnung der Kompatibilität mit AdGuard‑Produkten.
 
 ---
 
@@ -169,19 +169,6 @@ AdGuard ist eine eingetragene Marke der AdGuard Software Limited. Diese App ist 
 
 - ❌ **Manuelle Filteranpassung** – zeitaufwändig und vergesslich
 - ✅ **NetPause** – einmal konfigurieren, automatisch steuern lassen
-
----
-
-## 📄 Lizenz
-
-**GNU General Public License v3.0** – Nutzung, Modifikation und Weitergabe erlaubt unter gleichen Bedingungen.
-
----
-
-## 🤝 Beiträge
-
-Issues und Pull Requests sind willkommen!  
-Bei Fragen oder Verbesserungsvorschlägen einfach ein Issue eröffnen.
 
 ---
 
