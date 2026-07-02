@@ -132,7 +132,7 @@ Nach erfolgreicher Installation können Sie den entpackten Ordner (z.B. `AdGuard
 
 ```bash
 cd ..
-rm -rf AdGuardParental
+rm -rf NetPause-for-AdGuard-Home
 ```
 
 ---
