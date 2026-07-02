@@ -82,6 +82,7 @@ Für alle, die klare, automatisierte Regeln für die Internetnutzung im eigenen 
 ```bash
 unzip AdGuardParental.zip -d AdGuardParental
 cd AdGuardParental
+```
 
 
 2. **Installationsskript ausführen**
