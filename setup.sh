@@ -1,34 +1,29 @@
 #!/bin/bash
-# Installationsskript für AdGuard Parental
+# Installationsskript für NetPause for AdGuardHome
 
 #╔══════════════════════════════════════════════════════════╗
-#║                   AdGuard Parental -                     ║
+#║           NetPause for AdGuardHome -                     ║
 #║           Zeitschaltung für AdGuard Home                 ║
 #║                 developed by Neusmartra                  ║
 #║                      © 2026                              ║
-#║  Diese Datei ist Teil des AdGuard Parental-Projekts.     ║
-#║  Alle Rechte vorbehalten. Weitergabe / Veränderung       ║
-#║  nur mit ausdrücklicher Genehmigung des Autors.          ║
 #╚══════════════════════════════════════════════════════════╝
 
 echo
 echo
 echo ╔══════════════════════════════════════════════════════════╗
-echo                     AdGuard Parental -                      
+echo               NetPause for AdGuardHome -                      
 echo             Zeitschaltung für AdGuard Home                  
 echo                   developed by Neusmartra                   
 echo                        © 2026                               
-echo    Alle Rechte vorbehalten. Weitergabe / Veränderung        
-echo    nur mit ausdrücklicher Genehmigung des Autors.           
 echo ╚══════════════════════════════════════════════════════════╝
 echo
 echo
 
-echo "Dieses Skript wird AdGuard Parental auf Ihrem System installieren."
+echo "Dieses Skript wird NetPause for AdGuardHome auf Ihrem System installieren."
 echo "Es werden Apache2, PHP und benötigte Pakete installiert."
 echo "Sie sollten dieses Setup als Administrator / Root-User durchführen."
 echo
-read -p "Sind Sie sicher, dass Sie AdGuard Parental installieren möchten? (j/N): " confirm
+read -p "Sind Sie sicher, dass Sie NetPause for AdGuardHome installieren möchten? (j/N): " confirm
 if [[ ! "$confirm" =~ ^[jJyY] ]]; then
     echo "Installation abgebrochen."
     exit 0
@@ -44,7 +39,7 @@ WEBROOT_APP="$WEBROOT_BASE/$APP_DIR"
 KEYDIR="/var/www/keys"
 WEBUSER="www-data"
 
-echo "Dieses Skript bereitet das System für AdGuard Parental vor."
+echo "Dieses Skript bereitet das System für NetPause for AdGuardHome vor."
 echo "Benötigte Abhängigkeiten werden installiert, der Webserver konfiguriert."
 echo "Die Web-Dateien kommen nach: $WEBROOT_APP"
 echo "Die verschlüsselten Schlüssel und Benutzerdaten nach: $KEYDIR"
@@ -151,12 +146,10 @@ echo "          Sichern Sie diese Datei unbedingt, da ohne sie die gespeicherten
 echo
 echo
 echo ╔══════════════════════════════════════════════════════════╗
-echo                     AdGuard Parental -                     
+echo                     NetPause for AdGuardHome -                     
 echo             Zeitschaltung für AdGuard Home                 
 echo                   developed by Neusmartra                  
 echo                        © 2026                              
-echo    Alle Rechte vorbehalten. Weitergabe / Veränderung       
-echo    nur mit ausdrücklicher Genehmigung des Autors.          
 echo ╚══════════════════════════════════════════════════════════╝
 echo
 echo
