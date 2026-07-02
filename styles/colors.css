@@ -1,0 +1,72 @@
+:root {
+  /* Grundfarben */
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --text-color-hover: #a49289;
+
+  /* Strukturelle Elemente */
+  --header-bg: #242424;
+  --main-bg: #1e1e1e;
+  --footer-bg: #242424;
+  --footer-text: #b0b0b0;
+  --card-bg: #2a2a2a;
+
+  /* Buttons und interaktive Elemente */
+  --button-bg: #4a6d7c;
+  --button-hover: #5a8292;
+  --button-text: #ffffff;
+  --button-shadow: rgba(255, 255, 255, 0.05);
+  --button-hover-shadow: rgba(255, 255, 255, 0.1);
+  --button-active-shadow: rgba(255, 255, 255, 0.15);
+
+  /* Spezifische Bereiche */
+  --ladequelle-bg: #2a3c4d;
+  --einstellungen-bg: #3c3a2a;
+  --raspberry-bg: #2a3c3c;
+  --offline-bg: #8b3e3e;
+  --offline-text: #ffffff;
+  --message-box-bg: #4a6d7c;
+  --message-box-text: #ffffff;
+
+  /* Spezifische Buttons */
+  --lade-bg-button: #4a6d7c;
+  --lade-bg-button-hover: #5a8292;
+  --einstellungen-bg-button: #7c6d4a;
+  --einstellungen-bg-button-hover: #92825a;
+  --raspberry-bg-button: #4a7c6d;
+  --raspberry-bg-button-hover: #5a9282;
+
+  /* Loader und Suchfeld */
+  --loader-border: #2a2a2a;
+  --loader-border-top: #4a6d7c;
+  --search: #7c6d4a;
+  --search-hover: #92825a;
+
+  /* Menü-Elemente */
+  --menu-items: #242424;
+  --menu-items-hover: #2a2a2a;
+  --menu-items-a: #e0e0e0;
+  --menu-items-shadow: rgba(255, 255, 255, 0.05);
+
+  /* Status-Farben */
+  --error: #8b3e3e;
+  --success: #3e8b5a;
+
+  /* Eingabefelder */
+  --input-bg: #2a2a2a;
+  --input-bg-hover: #333333;
+  --input-border: #444444;
+  --input-border-hover: #556677;
+
+  /* Schatten und Overlays */
+  --category-shadow: rgba(255, 255, 255, 0.03);
+  --main-shadow: rgba(255, 255, 255, 0.02);
+  --header-shadow: rgba(255, 255, 255, 0.02);
+  --darkModeToggle-shadow: rgba(255, 255, 255, 0.05);
+  --offline-shadow: rgba(255, 255, 255, 0.05);
+  --message-shadow: rgba(255, 255, 255, 0.05);
+  --loadingOverlay-bg: rgba(26, 26, 26, 0.7);
+
+  /* Sonstige */
+  --label-color: #a0a0a0;
+}

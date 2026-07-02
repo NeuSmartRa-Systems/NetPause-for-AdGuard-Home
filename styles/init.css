@@ -1,0 +1,7 @@
+@import url('layout.css');
+@import url('colors.css');
+@import url('fonts.css');
+
+:root {
+    cursor: auto;
+}

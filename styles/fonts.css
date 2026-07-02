@@ -1,0 +1,156 @@
+/* --- HEADER --- */
+.header-text {
+  font-size: 5vh; /* Größe basierend auf der Bildschirmhöhe */
+  color: var(--text-color);
+  font-family:
+    "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Konsistent mit dem Body-Font */
+  font-weight: 700; /* Fett für bessere Sichtbarkeit */
+  text-align: center;
+  line-height: 1.2; /* Bessere Zeilenhöhe für Lesbarkeit */
+  padding: 0.5rem; /* Etwas Abstand um den Text */
+  transition:
+    color 0.3s ease,
+    transform 0.2s ease; /* Sanfter Farbwechsel- und Transform-Effekt */
+
+  /* Styles für vertikale und horizontale Zentrierung */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+/* .header-text:hover {
+  color: var(--text-color-hover);
+  transform: translate(-50%, calc(-50% - 2px));
+} */
+
+/* --- /HEADER --- */
+
+/* Link-Styling */
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition:
+    color 0.3s ease,
+    text-decoration 0.3s ease; /* Hinzugefügt: Übergang für Unterstreichung */
+}
+
+a:hover {
+  color: var(--text-color-hover);
+  text-decoration: underline; /* Hinzugefügt: Unterstreichung bei Hover */
+}
+
+a:visited,
+a:active {
+  color: var(--text-color);
+}
+
+/* Gemeinsame Stile für h2, h3 und h4 */
+h2,
+h3,
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  line-height: 1.2;
+  /* margin-top: 1.5em; */
+  /* margin-bottom: 1em; */
+  /* font-weight: 600; */
+  /* transition: all 0.3s ease; */
+  /* letter-spacing: 0.3em; */
+  /* text-transform: uppercase; */
+  /* padding-bottom: 0.3em; */
+  /* position: relative; */
+}
+
+/* Unterstreichung für h2, h3 und h4
+h2::after, h3::after, h4::after {
+  content: '';
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 0;
+  height: 2px;
+  background-color: var(--text-color);
+} */
+
+/* Spezifische Größen und Farben */
+h1 {
+  font-family:
+    "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Konsistent mit anderen Überschriften */
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em; /* Etwas weniger Abstand nach unten */
+  font-weight: 600;
+  font-size: 2.5em; /* Größe für h1 */
+}
+
+/* Farbdefinitionen für die Überschriften */
+h2 {
+  font-size: 2em;
+  color: var(--lade-bg-button);
+}
+
+h3 {
+  font-size: 1.5em;
+  color: var(--einstellungen-bg-button);
+}
+
+h4 {
+  font-size: 1.2em;
+  color: var(--raspberry-bg-button);
+}
+
+/* Hover-Effekte für alle Überschriften
+h2:hover, h3:hover, h4:hover {
+  transform: translateY(-2px) scale(1.01);
+  padding-left: 5px;
+} */
+
+/* Spezifische Hover-Farben */
+/* h2:hover {
+  color: var(--lade-bg-button-hover);
+}
+
+h3:hover {
+  color: var(--einstellungen-bg-button-hover);
+}
+
+h4:hover {
+  color: var(--raspberry-bg-button-hover);
+} */
+
+.info-text {
+  font-size: 0.9rem; /* Erhöht: Bessere Lesbarkeit */
+  color: var(--text-color);
+  margin: 1.25rem 0; /* Erhöht: Mehr Abstand */
+  line-height: 1.5; /* Erhöht: Besserer Zeilenabstand */
+}
+
+.link {
+  text-align: center;
+  margin-top: 1.25rem; /* Erhöht: Mehr Abstand */
+  font-size: 0.95rem; /* Erhöht: Größere Schrift */
+  color: var(--text-color);
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+  .header-text {
+    font-size: 4vh; /* Etwas kleiner auf mobilen Geräten */
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+  h3 {
+    font-size: 1.4em;
+  }
+  h4 {
+    font-size: 1.1em;
+  }
+}
