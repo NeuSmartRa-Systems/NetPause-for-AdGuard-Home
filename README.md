@@ -80,6 +80,7 @@ Für alle, die klare, automatisierte Regeln für die Internetnutzung im eigenen 
 1. **Zip‑Datei entpacken**
 
 ```bash
+weget "https://github.com/NeuSmartRa-Systems/NetPause-for-AdGuard-Home.git"
 unzip AdGuardParental.zip -d AdGuardParental
 cd AdGuardParental
 ```
