@@ -94,10 +94,10 @@
 </p>
 
 <pre>
-unzip AdGuardParental.zip
-cd AdGuardParental
-chmod +x setup.sh
-sudo ./setup.sh
+    git clone https://github.com/NeuSmartRa-Systems/NetPause-for-AdGuard-Home.git
+    cd NetPause-for-AdGuard-Home
+    chmod +x setup.sh
+    sudo ./setup.sh
 </pre>
 
 <p>
@@ -147,7 +147,7 @@ sudo dpkg-reconfigure --frontend noninteractive tzdata
 <h3>📄 Rechtliche Hinweise</h3>
 
 <p>
-    <strong>Urheberrecht:</strong> © 2026 Neusmartra. Veröffentlicht unter: GNU General Public License
+    <strong>Urheberrecht:</strong> © 2026 Neusmartra | Systems. Veröffentlicht unter: GNU General Public License
 </p>
 
 <p>
