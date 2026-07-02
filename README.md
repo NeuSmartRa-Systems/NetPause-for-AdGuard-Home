@@ -81,8 +81,7 @@ Für alle, die klare, automatisierte Regeln für die Internetnutzung im eigenen 
 
 ```bash
 git clone https://github.com/NeuSmartRa-Systems/NetPause-for-AdGuard-Home.git
-unzip NetPause-for-AdGuard-Home.zip -d NetPause
-cd NetPause
+cd NetPause-for-AdGuard-Home
 ```
 
 
