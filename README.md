@@ -181,5 +181,3 @@ AdGuard und das AdGuard-Logo sind eingetragene Marken der AdGuard Software Limit
 <p align="center">
   <b>NeuSmartRa</b> | Systems – 2026
 </p>
-
-```
