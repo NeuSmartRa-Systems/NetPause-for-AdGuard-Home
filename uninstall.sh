@@ -1,30 +1,25 @@
 #!/bin/bash
-# Uninstall-Skript für AdGuard Parental
+# Uninstall-Skript für NetPause for AdGuardHome
 
 #╔══════════════════════════════════════════════════════════╗
-#║                   AdGuard Parental -                     ║
+#║           NetPause for AdGuardHome -                     ║
 #║           Zeitschaltung für AdGuard Home                 ║
 #║                 developed by Neusmartra                  ║
 #║                      © 2026                              ║
-#║  Diese Datei ist Teil des AdGuard Parental-Projekts.     ║
-#║  Alle Rechte vorbehalten. Weitergabe / Veränderung       ║
-#║  nur mit ausdrücklicher Genehmigung des Autors.          ║
 #╚══════════════════════════════════════════════════════════╝
 
 echo
 echo
 echo ╔══════════════════════════════════════════════════════════╗
-echo                     AdGuard Parental -                      
+echo                     NetPause for AdGuardHome -                      
 echo             Zeitschaltung für AdGuard Home                  
 echo                   developed by Neusmartra                   
 echo                        © 2026                               
-echo    Alle Rechte vorbehalten. Weitergabe / Veränderung        
-echo    nur mit ausdrücklicher Genehmigung des Autors.           
 echo ╚══════════════════════════════════════════════════════════╝
 echo
 echo
 
-echo "Dieses Skript wird AdGuard Parental vollständig von Ihrem System entfernen."
+echo "Dieses Skript wird NetPause for AdGuardHome vollständig von Ihrem System entfernen."
 echo "Folgende Komponenten werden gelöscht:"
 echo "  - Webverzeichnis /var/www/html/AGP"
 echo "  - Schlüsselverzeichnis /var/www/keys (mit allen Benutzerdaten und Zugangsdaten!)"
@@ -34,7 +29,7 @@ echo "  - Port 8083 aus /etc/apache2/ports.conf (falls nur von uns hinzugefügt)
 echo
 echo "Die Apache- und PHP-Pakete bleiben erhalten, da sie auch von anderen Anwendungen genutzt werden könnten."
 echo
-read -p "Sind Sie sicher, dass Sie AdGuard Parental deinstallieren möchten? (j/N): " confirm
+read -p "Sind Sie sicher, dass Sie NetPause for AdGuardHome deinstallieren möchten? (j/N): " confirm
 if [[ ! "$confirm" =~ ^[jJyY] ]]; then
     echo "Deinstallation abgebrochen."
     exit 0
@@ -120,11 +115,9 @@ echo "Apache2 und PHP wurden nicht entfernt. Falls Sie diese ebenfalls deinstall
 echo "  sudo apt purge apache2 php-*  (Vorsicht: könnten andere Websites beeinträchtigen)"
 echo
 echo ╔══════════════════════════════════════════════════════════╗
-echo                     AdGuard Parental -                      
+echo                     NetPause for AdGuardHome -                      
 echo             Zeitschaltung für AdGuard Home                  
 echo                   developed by Neusmartra                   
 echo                        © 2026                               
-echo    Alle Rechte vorbehalten. Weitergabe / Veränderung       
-echo    nur mit ausdrücklicher Genehmigung des Autors.          
 echo ╚══════════════════════════════════════════════════════════╝
 echo
