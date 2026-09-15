@@ -11,7 +11,7 @@
 
 ## 📸 Screenshots
 
-> *(Screenshots folgen in Kürze)*
+> *(Screenshots folgen)*
 
 ---
 
